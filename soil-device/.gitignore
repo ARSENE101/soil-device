@@ -1,0 +1,20 @@
+# Datasets: download them yourself, don't redistribute
+data/*
+!data/README.md
+
+# Secrets: WiFi passwords, API keys
+.env
+secrets.h
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# PlatformIO / Arduino build output (from week 3)
+.pio/
+build/
+
+# OS clutter
+.DS_Store
+Thumbs.db
