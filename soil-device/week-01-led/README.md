@@ -16,6 +16,38 @@ Nov 2–8, 2026 · in the Wokwi simulator
 
 Parts in Wokwi: ESP32, LED, 220 Ω resistor, pushbutton. LED on GPIO 18, button on GPIO 4.
 
+## Plan for the week (~7 h)
+
+| Session | Time | What |
+| --- | --- | --- |
+| 1 | 1.5 h | Skim the Wokwi ESP32 guide, then Level 1 |
+| 2 | 1.5 h | Level 2 |
+| 3 | 1.5 h | Level 3, the stretch goal, the experiments |
+| 4 | 0.5 h | Research the why-questions, write your answers |
+| 5 | 2 h | Crop model task |
+
+## Resources
+
+**For the build**
+
+- [Wokwi ESP32 guide](https://docs.wokwi.com/guides/esp32): how the simulated board works, pinout, serial monitor
+- Level 1: [Espressif's Blink tutorial](https://docs.espressif.com/projects/arduino-esp32/en/latest/tutorials/blink.html), from the makers of the ESP32
+- Level 2: [ESP32 PWM with Arduino IDE](https://randomnerdtutorials.com/esp32-pwm-arduino-ide/) (Random Nerd Tutorials). Use the `analogWrite` part first; the `ledc` functions are the advanced version.
+- Level 3: [ESP32 Digital Inputs and Outputs](https://randomnerdtutorials.com/esp32-digital-inputs-outputs-arduino/) (Random Nerd Tutorials)
+- Function reference: [Arduino language reference](https://docs.arduino.cc/language-reference/)
+
+**For the why-questions** (read after you've built and experimented)
+
+- Q1: [Light-Emitting Diodes](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds/all) (SparkFun), the section on current-limiting resistors
+- Q2: [Pull-up Resistors](https://learn.sparkfun.com/tutorials/pull-up-resistors/all) (SparkFun)
+- Q3: [Pulse Width Modulation](https://learn.sparkfun.com/tutorials/pulse-width-modulation/all) (SparkFun)
+- Q4, only after you've described the problem yourself: [Debounce on a Pushbutton](https://docs.arduino.cc/built-in-examples/digital/Debounce/) (Arduino) and the [Wokwi pushbutton reference](https://docs.wokwi.com/parts/wokwi-pushbutton)
+
+**For the crop model**
+
+- [Crop Recommendation dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset) (Kaggle)
+- [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html). Useful here: `value_counts`, `groupby(...).mean()`, `min`/`max`.
+
 ## Experiments (after it works)
 
 - [ ] Remove the resistor and wire the LED straight to the pin.
