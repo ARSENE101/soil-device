@@ -1,0 +1,39 @@
+# Ohm's law
+
+> Voltage equals current times resistance. Knowing any two, I can find the third.
+
+## Formulas
+
+$$V = I \times R$$
+
+| Symbol | Means | Unit |
+| --- | --- | --- |
+| V | voltage | volts (V) |
+| I | current | amps (A) |
+| R | resistance | ohms (Ω) |
+
+Rearranged to find the resistance:
+
+$$R = \frac{V}{I}$$
+
+## In my words
+
+- Ohm's law ties voltage, current and resistance together.
+- I'll use $R = V / I$ to work out which [resistor](resistors.md) a circuit needs.
+
+## Mistakes and corrections
+
+- **Watch the units.** The formula needs current in **amps**, so milliamps must be converted first: 1 mA = 1/1000 A, so 20 mA = 0.020 A. Putting in 20 instead of 0.020 gives an answer 1000 times too small.
+
+## Open questions
+
+- When I calculate an [LED's](leds.md) resistor, which voltage goes into $R = V / I$: the battery's full voltage, or something else? *(Look out for this in the LED lesson.)*
+
+## Related
+
+- [Resistors](resistors.md)
+- [Circuit basics](circuit-basics.md)
+
+## Sources
+
+- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), Resistors section. Nov 22, 2026
