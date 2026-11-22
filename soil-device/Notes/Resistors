@@ -1,0 +1,40 @@
+# Resistors
+
+> A resistor limits how much current flows in a circuit. Its value is measured in ohms (Ω).
+
+## In my words
+
+- In the LED circuit, current leaves the battery's positive side, passes through the resistor, then the [LED](leds.md), and returns to the negative side.
+- The resistor limits the current so the LED doesn't get more than it can take.
+
+## Finding a resistor's value
+
+These are two different jobs:
+
+| Question | How |
+| --- | --- |
+| What value do I **need**? | Calculate it with [Ohm's law](ohms-law.md): $R = V / I$ |
+| What value does this resistor **have**? | Read its colour bands against a colour-code chart, or measure it with a multimeter |
+
+## Mistakes and corrections
+
+- I wrote that the resistor "regulates" the current. It **limits** it. A regulator would hold the current steady whatever changes; a resistor just sets how much current flows for a given voltage.
+- I mixed up calculating a resistor and reading one. The calculation tells me the value I need; the colour code or multimeter tells me the value of the resistor in my hand.
+
+## Used in
+
+- Arduino course, Project #1: basic LED circuit (simulator)
+
+## Open questions
+
+- How exactly do the colour bands encode the value?
+
+## Related
+
+- [Ohm's law](ohms-law.md)
+- [LEDs](leds.md)
+- [Circuit basics](circuit-basics.md)
+
+## Sources
+
+- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), Resistors section. Nov 22, 2026
