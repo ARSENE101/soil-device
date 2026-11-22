@@ -1,0 +1,7 @@
+# November 2026
+
+Newest first.
+
+| Date | What I learned | Notes changed |
+| --- | --- | --- |
+| Nov 22 | The battery symbol and which way current flows; resistors limit current; Ohm's law V = I × R; LED current limits (20 mA max, 10–15 mA recommended) | [circuit basics](../electronics/circuit-basics.md), [Ohm's law](../electronics/ohms-law.md), [resistors](../electronics/resistors.md), [LEDs](../electronics/leds.md) |
