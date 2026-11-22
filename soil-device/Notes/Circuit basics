@@ -1,1 +1,26 @@
+# Circuit basics
 
+> A circuit is a closed loop: current leaves the battery, passes through the components, and returns to the battery.
+
+## In my words
+
+- **Battery symbol:** in a circuit diagram, the battery's **longer** line is the positive (+) terminal and the **shorter** line is the negative (−) terminal.
+- **Current direction:** current is drawn flowing from the **positive** side, through the components, to the **negative** side.
+- In the basic LED circuit, the current passes through a [resistor](resistors.md) on its way to the [LED](leds.md).
+
+## Mistakes and corrections
+
+- I wrote that current "always" flows from positive to negative. That's **conventional current**, the agreed direction that circuit diagrams and calculations use. The electrons themselves actually drift the other way, from negative to positive. Both describe the same circuit; I'll use conventional current, like every diagram and datasheet does.
+
+## Used in
+
+- Arduino course, Project #1: basic LED circuit (simulator)
+
+## Related
+
+- [Ohm's law](ohms-law.md)
+- [Resistors](resistors.md)
+
+## Sources
+
+- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), Resistors section. Nov 22, 2026
