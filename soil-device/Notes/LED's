@@ -1,0 +1,30 @@
+# LEDs
+
+> A light-emitting diode. It needs its current limited, usually with a [resistor](resistors.md). *(In progress: more after the LED lesson.)*
+
+## Current limits
+
+| | Current |
+| --- | --- |
+| Typical maximum rating (standard LED) | 20 mA |
+| Recommended operating current | 10–15 mA |
+
+- mA = milliamps, 1/1000 of an amp.
+- 10–15 mA gives good brightness and keeps the LED well inside its limit.
+
+## Mistakes and corrections
+
+- I wrote that above 20 mA "the LED is fried". It's gradual: a little over the rating shortens the LED's life, far over burns it out. The exact limit for a given LED is in its datasheet.
+
+## Open questions
+
+- Which voltage do I use in [Ohm's law](ohms-law.md) to pick this LED's resistor?
+
+## Related
+
+- [Resistors](resistors.md)
+- [Ohm's law](ohms-law.md)
+
+## Sources
+
+- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), Resistors section. Nov 22, 2026
