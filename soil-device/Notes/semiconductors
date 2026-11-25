@@ -1,0 +1,37 @@
+# Semiconductors: p-type, n-type and the p-n junction
+
+> A semiconductor like silicon conducts somewhere between a metal and an insulator. Adding a few atoms of another element ("doping") makes n-type or p-type material, and joining the two makes a diode.
+
+## In my words
+
+- Each silicon atom has 4 outer electrons, all locked into bonds with its neighbours, so pure silicon has few free charges to carry current.
+- **n-type:** add atoms with **5** outer electrons (e.g. phosphorus). The fifth electron has no bond to sit in, so it's free to move. The moving charges are negative electrons, hence **n**.
+- **p-type:** add atoms with **3** outer electrons (e.g. boron). Each one leaves a gap where an electron should be, called a **hole**. Neighbouring electrons hop into the hole, which leaves a new hole behind, so the hole moves around like a positive charge. Hence **p**.
+- Both materials are still electrically neutral overall. "p" and "n" name the charge that does the moving, not the material's total charge.
+
+## The p-n junction
+
+```
+   p-type            depletion zone            n-type
+ (spare holes)      (no free charges)     (spare electrons)
+   + + + +     |                     |     − − − −
+```
+
+- Where p-type meets n-type, free electrons spread from the n side (where there are many) into the p side (where there are few) and fill the holes near the boundary. This is the "high concentration to low concentration" movement.
+- That leaves a thin zone with no free charges, the **depletion zone**, which acts as a barrier.
+- **Forward** (+ to the p side): a large enough voltage pushes electrons over the barrier, and current flows.
+- **Reverse** (+ to the n side): the barrier gets wider, and almost no current flows.
+- So a p-n junction is a **diode**: current flows in one direction only.
+
+## Used in
+
+- [LEDs](leds.md): an LED is a p-n junction that gives off light.
+
+## Related
+
+- [LEDs](leds.md)
+- [Circuit basics](circuit-basics.md)
+
+## Sources
+
+- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), LEDs section. Nov 25, 2026
