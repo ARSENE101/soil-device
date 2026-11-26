@@ -1,6 +1,25 @@
 # LEDs
 
-> A light-emitting diode. It needs its current limited, usually with a [resistor](resistors.md). *(In progress: more after the LED lesson.)*
+> A light-emitting diode: a [p-n junction](semiconductors.md) that gives off light when current flows through it the right way. It needs its current limited, usually with a [resistor](resistors.md).
+
+## Why LEDs replaced incandescent bulbs
+
+- Edison's incandescent bulb (1879) makes light by heating a thin wire, the filament, until it glows. Most of the energy, around 90% or more, comes out as heat rather than light.
+- An LED makes light directly from electrons inside a semiconductor, so far less energy is wasted as heat.
+
+## How an LED makes light
+
+1. With a forward voltage, electrons from the n side are pushed across the junction into the p side.
+2. There, an electron falls into a hole. It drops to a lower energy level and gives off the difference as a tiny packet of light, a **photon**. This is called **recombination**.
+3. The size of that energy drop sets the colour of the light, and it depends on the material the LED is made from.
+
+Because an LED is a diode, current and light only happen one way round.
+
+### Where the energy comes from: a cycle powered by the battery
+
+- The battery supplies the energy. It pushes electrons into the n side and pulls electrons out of the p side, which leaves fresh holes there, so the supply of electrons and holes never runs out.
+- Electrons go round the circuit in a loop. At the junction, part of the energy the battery gave them comes out as light.
+- Energy isn't created, it's converted: electrical energy from the battery becomes light, plus a little heat.
 
 ## Current limits
 
@@ -15,16 +34,23 @@
 ## Mistakes and corrections
 
 - I wrote that above 20 mA "the LED is fried". It's gradual: a little over the rating shortens the LED's life, far over burns it out. The exact limit for a given LED is in its datasheet.
+- Edison didn't invent the first light bulb; others, such as Joseph Swan, built earlier ones. Edison made the first practical, long-lasting one, in 1879.
+- I described the filament's glow as "overheating". Heating the filament until it glows is how the bulb is designed to work. The problem is that most of that energy comes out as heat.
+- I wrote that the LED's light comes from electrons moving from high to low concentration. That spreading (diffusion) is real, but it's what builds the barrier at the junction. The light comes from **recombination**: an electron falling into a hole and releasing a photon.
+- I thought the electrons' motion, searching for holes, creates the energy. Motion doesn't create energy: the battery supplies it, and the light comes out at the moment an electron drops into a hole.
 
 ## Open questions
 
-- Which voltage do I use in [Ohm's law](ohms-law.md) to pick this LED's resistor?
+- Which voltage do I use in [Ohm's law](ohms-law.md) to pick an LED's resistor? *Hint: each electron gives up energy as it crosses the junction, so the LED itself uses up part of the supply voltage.*
+- Why are LEDs made from materials like gallium arsenide or gallium nitride instead of silicon?
+- Which leg of an LED is the p side, and how do I tell them apart?
 
 ## Related
 
+- [Semiconductors: p-type, n-type and the p-n junction](semiconductors.md)
 - [Resistors](resistors.md)
 - [Ohm's law](ohms-law.md)
 
 ## Sources
 
-- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), Resistors section. Nov 22, 2026
+- [Arduino Course for Everybody](https://www.youtube.com/watch?v=DPqiIzK97K0) (freeCodeCamp), Resistors section (Nov 22, 2026) and LEDs section (Nov 25, 2026)
