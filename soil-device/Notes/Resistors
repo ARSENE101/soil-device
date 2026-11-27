@@ -6,7 +6,7 @@
 
 - In the LED circuit, current leaves the battery's positive side, passes through the resistor, then the [LED](leds.md), and returns to the negative side.
 - The resistor limits the current so the LED doesn't get more than it can take.
-
+p-type =positive terminal and ntype negative terminal, named after electron surplus and shortage 
 ## Finding a resistor's value
 
 These are two different jobs:
